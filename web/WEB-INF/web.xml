@@ -39,4 +39,25 @@
         <url-pattern>/dologin</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>SessionTest01</servlet-name>
+        <servlet-class>session.SessionTest01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionTest01</servlet-name>
+        <url-pattern>/session01</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionTest02</servlet-name>
+        <servlet-class>session.SessionTest02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionTest02</servlet-name>
+        <url-pattern>/session02</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
